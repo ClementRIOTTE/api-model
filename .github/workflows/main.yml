@@ -23,4 +23,4 @@ jobs:
     - name: Train and evaluate model
       run: python train/train.py
     - name: Build docker image
-      run: docker build -t titanic_api
+      run: docker build -t titanic_api .
